@@ -69,7 +69,7 @@ class Battery:
 if __name__ == '__main__':
     bat = Battery()
     def_remind_spec = 180       # 提醒间隔：秒
-    def_power_offset = 4        # 电量偏移，获取到的值和系统任务栏显示的有差距
+    def_power_offset = 5        # 电量偏移，获取到的值和系统任务栏显示的有差距
     def_min_percentage = 60     # 低水位值
     def_max_percentage = 90     # 高水位值
     cmd_base = 'osascript -e \'display notification "{0}" with title "JadeStar-电源管理-{1}"\''
