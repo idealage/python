@@ -142,8 +142,8 @@ if __name__ == '__main__':
     os.system("title 服务监控")
     
     threads = [
-        #MonitorProcessObj("GateFlowSend.exe",   r'D:\MyStudio\Code\kmjy\BaseFrame\cpp\card\@bin\GateFlowSend.bat', 0, 17),
-        #MonitorProcessObj("WxMessageSend.exe",   r'D:\MyStudio\Code\kmjy\BaseFrame\cpp\card\@bin\WxMessageSend.bat', 1, 17, [30], 1),
+        #MonitorProcessObj("GateFlowSend.exe",   r'D:\MyStudio\Code\GateFlowSend.bat', 0, 17),
+        #MonitorProcessObj("WxMessageSend.exe",   r'D:\MyStudio\Code\WxMessageSend.bat', 1, 17, [30], 1),
         MonitorProcessObj("calc.exe",   r'calc.exe', 2, 5, [9]),
     ]
 
